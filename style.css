@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+}
+header{
+    background-color: darkgray;
+    color: white;
+    height: 10vw;
+    padding: 100px;;
+}
+h1 {
+    color: white;
+    font-size: 64px;
+}
+main {
+    display: flex;
+    border: solid red 3px;
+    height: 80vw;
+}
+.sidebar {
+    width: 20%;
+    background-color: orange;
+    padding: 100px;
+}
+.article {
+    width: 80%;
+    padding: 100px;
+    padding-right: 500px;
+    padding-left: 300px;
+}
+.article h1 {
+    color: black;
+}
+.line {
+padding-left: 100px;
+border-top: grey 3px solid;
+}
+p {
+    font-size: 42px;
+    padding-top: 30px;
+}
+footer {
+    height: 10vw;
+    background-color: lightgray;
+    padding: 100px;
+}
